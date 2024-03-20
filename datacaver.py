@@ -109,7 +109,7 @@ def main():
 			start_value_int = int(start_value, 16)
 			data_section_start = start_value_int + virtual_address_int
 			data_section_end = start_value_int + virtual_address_int + virtual_size_int
-			pykd.dprintln('RW Address:\t\t\t' + hex(data_section_end)[2:])
+			pykd.dprintln('RW Address:\t\t\t\t' + hex(data_section_end)[2:])
 
 			pykd.dprintln('\n.data Protections:')
 			pykd.dprintln('===================================================')	
