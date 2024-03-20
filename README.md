@@ -17,4 +17,7 @@ If not already done place pykd.dll in `C:\Program Files\Windows Kits\10\Debugger
 2) Obtain a loaded module, e.g. by using `lm`
 3) Execute the script: `!py C:\Scripts\datacaver.py <MODULE_NAME>`
 
-![DataCaverExample.png](images/DataCaverExample.png)
+<center>
+    <img src="images/DataCaverExample.png">
+</center>
+
